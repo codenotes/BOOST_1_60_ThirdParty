@@ -71,7 +71,7 @@ public class BOOST_1_60 : ModuleRules
     {
       
 		Type = ModuleType.External;
-		
+		 PublicIncludePaths.Add(ModuleDirectory + @"\include");
 		
 		if (Target.Platform == UnrealTargetPlatform.Win64)
 		{
