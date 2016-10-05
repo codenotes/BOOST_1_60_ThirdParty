@@ -75,7 +75,7 @@ public class BOOST_1_60 : ModuleRules
 		
 		if (Target.Platform == UnrealTargetPlatform.Win64)
 		{
-			  string dir=ModuleDirectory + @"\Lib\x64\static\");
+			  string dir=ModuleDirectory + @"\Lib\x64\static\";
 			  PublicLibraryPaths.Add(dir);
 			   
 		
